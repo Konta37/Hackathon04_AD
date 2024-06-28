@@ -61,7 +61,7 @@ public class CartService implements IGenericService<Cart, Integer> {
                 System.out.println("Exit delete All Product In Cart");
                 return;
             }else {
-                System.err.println("Invalid input (true/false)");
+                System.err.println("Invalid input (yes/no)");
             }
         }while (true);
 
