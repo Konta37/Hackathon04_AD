@@ -305,8 +305,13 @@ public class BookManagement {
 
     public static void showCarts() {
         System.out.printf("%-10s %-20s %-10s %-10s%n\n", "Id cart", "Product", "Quantity","Price");
-        for (Cart a : cartService.getAll()) {
-            a.displayData();
+        for (int i = 0; i < cartService.getAll().size(); i++) {
+            if (CartService.cartList.get(i).getProduct()!=null){
+                CartService.cartList.get(i).displayData();
+            }else {
+                CartService.cartList.remove(i);
+                break;
+            }
         }
         System.out.println("Finish showing all products in cart");
     }
