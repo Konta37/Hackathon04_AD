@@ -1,4 +1,4 @@
-package model;
+package b1.model;
 
 import java.util.Scanner;
 

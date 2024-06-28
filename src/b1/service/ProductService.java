@@ -1,11 +1,9 @@
-package service;
+package b1.service;
 
-import model.Catalog;
-import model.Product;
+import b1.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class ProductService implements IGenericService<Product,String>{
     public static List<Product> productList = new ArrayList<Product>();

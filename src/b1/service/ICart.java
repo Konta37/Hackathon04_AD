@@ -1,4 +1,4 @@
-package service;
+package b1.service;
 
 import java.util.Scanner;
 

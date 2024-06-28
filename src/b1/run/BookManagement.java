@@ -1,16 +1,13 @@
-package run;
+package b1.run;
 
-import jdk.jfr.Category;
-import model.Cart;
-import model.Catalog;
-import model.Product;
-import service.CartService;
-import service.CatalogService;
-import service.ProductService;
+import b1.model.Cart;
+import b1.model.Catalog;
+import b1.model.Product;
+import b1.service.CartService;
+import b1.service.CatalogService;
+import b1.service.ProductService;
 
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 public class BookManagement {

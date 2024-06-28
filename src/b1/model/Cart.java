@@ -1,9 +1,8 @@
-package model;
+package b1.model;
 
-import service.CartService;
-import service.CatalogService;
-import service.ICart;
-import service.ProductService;
+import b1.service.CartService;
+import b1.service.ICart;
+import b1.service.ProductService;
 
 import java.util.Scanner;
 

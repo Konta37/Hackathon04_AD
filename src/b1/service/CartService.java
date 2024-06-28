@@ -1,8 +1,6 @@
-package service;
+package b1.service;
 
-import model.Cart;
-import model.Catalog;
-import model.Product;
+import b1.model.Cart;
 
 import java.util.ArrayList;
 import java.util.List;

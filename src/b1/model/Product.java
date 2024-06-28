@@ -1,8 +1,7 @@
-package model;
+package b1.model;
 
-import run.BookManagement;
-import service.CatalogService;
-import service.ProductService;
+import b1.service.CatalogService;
+import b1.service.ProductService;
 
 import java.util.Scanner;
 

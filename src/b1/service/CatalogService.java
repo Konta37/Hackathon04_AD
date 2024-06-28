@@ -1,12 +1,10 @@
-package service;
+package b1.service;
 
-import model.Catalog;
-import model.Product;
-import run.BookManagement;
+import b1.model.Catalog;
+import b1.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class CatalogService implements IGenericService<Catalog, Integer> {
     public static List<Catalog> catalogList = new ArrayList<Catalog>();
